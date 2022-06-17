@@ -230,7 +230,7 @@ header {
     .portfolio-box-caption {
         color: white;
         display: block;
-        background: rgba( $theme-primary, .9 );
+        background: rgba( $theme-primary, .6 );
         position: absolute;
         bottom: 0;
         text-align: center;
@@ -260,7 +260,7 @@ header {
     }
     &:hover {
         .portfolio-box-caption {
-            height: 3rem;
+            height: 4rem;
         }
     }
     @media (min-width: 768px) {
