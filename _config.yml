@@ -5,8 +5,8 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "www.salon-adelsberger.at" # the base hostname & protocol for your site
 
-twitter_username: adrian.pali
-github_username: adrian.pali
+telephone: +43 664 915 999 8
+adress: Sensenschmiedweg 20, 6382 Kirchdorf in Tirol
 
 # Build settings
 markdown: kramdown
