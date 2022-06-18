@@ -67,7 +67,7 @@ aside {
     padding: 0;
 }
 
-.header-after-nav {
+.additional-content-header {
     background-color: $theme-primary;
     margin-top: 0px;
     padding-bottom: 2rem;
@@ -75,17 +75,27 @@ aside {
     color: white;
 }
 
+.additional-content-main {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: auto;
+}
+
 // Navigation
 
 .footer {
     display: flex;
-    flex-wrap: nowrap;
     list-style: none;
+    justify-content: center;
+    padding-left: 0px;
+    line-height: 4rem;
 }
 
 .footer-link {
     text-decoration: none;
     color:white;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .navbar-default {
