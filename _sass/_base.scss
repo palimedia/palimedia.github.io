@@ -69,25 +69,25 @@ aside {
 
 .additional-content-pre {
     background-color: $theme-primary;
-    margin-top: 0px;
     height: 50px;
-    padding-bottom: 2rem;
 }
 
 .additional-content-main {
     margin-left: auto;
     margin-right: auto;
     max-width: 900px;
-    padding: 3rem
+    padding: 3rem;
 }
 
 // Navigation
 
 .footer {
+    width: 100%;
     display: flex;
     list-style: none;
     justify-content: center;
     padding-left: 0px;
+    margin-bottom: 0px;
     line-height: 4rem;
     position: fixed;
     left: 0px;
