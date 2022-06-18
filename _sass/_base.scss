@@ -67,6 +67,11 @@ aside {
     padding: 0;
 }
 
+.additional-content {
+    display: flex;
+    flex-direction: column;
+}
+
 .additional-content-pre {
     background-color: $theme-primary;
     height: 50px;
@@ -82,16 +87,13 @@ aside {
 // Navigation
 
 .footer {
-    width: 100%;
     display: flex;
     list-style: none;
     justify-content: center;
     padding-left: 0px;
     margin-bottom: 0px;
     line-height: 4rem;
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
+    margin-top: auto;
 }
 
 .footer-link {
