@@ -7,53 +7,32 @@
 (function($) {
     "use strict"; // Start of use strict
 
-    // var jump=function(e)
-    // {
-    //     if (e){
-    //         e.preventDefault();
-    //         var target = $(this).attr("href");
-    //     }else{
-    //         var target = location.hash;
-    //     }
+    $('html, body').hide();
 
-    //     $('html,body').animate(
-    //     {
-    //         scrollTop: $(target).offset().top
-    //     }, 1250, 'easeInOutExpo',function()
-    //     {
-    //         location.hash = target;
-    //     });
-
-    // }
-
-    // $('html, body').hide();
-
-    // $(document).ready(function()
-    // {
-    //     $('a[href^=#]').bind("click", jump);
-
-    //     if (location.hash){
-    //         setTimeout(function(){
-    //             $('html, body').scrollTop(0).show();
-    //             jump();
-    //         }, 0);
-    //     }else{
-    //         $('html, body').show();
-    //     }
-    // });
+    if (window.location.hash) {
+        setTimeout(function() {
+            $('html, body').scrollTop(0).show();
+            $('html, body').animate({
+                scrollTop: $(window.location.hash).offset().top - 50
+                }, 1250, 'easeInOutExpo');
+        }, 0);
+    }
+    else {
+        $('html, body').show();
+    }
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
-    $('a.page-scroll').bind('click', function(event) {
+    // $('a.page-scroll').bind('click', function(event) {
 
-        var $anchor = this.hash;
+    //     var $anchor = this.hash;
         
-        if($($anchor).length) {
-            $('html, body').stop().animate({
-                scrollTop: ($($anchor).offset().top - 50)
-            }, 1250, 'easeInOutExpo');
-            event.preventDefault();
-        }
-    }); 
+    //     if($($anchor).length) {
+    //         $('html, body').stop().animate({
+    //             scrollTop: ($($anchor).offset().top - 50)
+    //         }, 1250, 'easeInOutExpo');
+    //         event.preventDefault();
+    //     }
+    // }); 
 
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
