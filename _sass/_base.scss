@@ -6,8 +6,6 @@ body {
 
 body {
     @include serif-font;
-    display: flex;
-    flex-direction: column;
 }
 
 hr {
@@ -90,9 +88,10 @@ aside {
     list-style: none;
     justify-content: center;
     padding-left: 0px;
-    margin-bottom: 0px;
-    margin-top: auto;
     line-height: 4rem;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
 }
 
 .footer-link {
