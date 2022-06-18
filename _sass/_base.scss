@@ -100,6 +100,9 @@ aside {
     color:white;
     margin-left: 1rem;
     margin-right: 1rem;
+    &:hover {
+        color: white;
+    }
 }
 
 .navbar-default {
