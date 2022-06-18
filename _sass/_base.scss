@@ -67,7 +67,13 @@ aside {
     padding: 0;
 }
 
-
+.header-after-nav {
+    background-color: $theme-primary;
+    margin-top: 0px;
+    padding-bottom: 2rem;
+    padding-top: 6rem;
+    color: white;
+}
 
 // Navigation
 
@@ -79,6 +85,7 @@ aside {
 
 .footer-link {
     text-decoration: none;
+    color:white;
 }
 
 .navbar-default {
