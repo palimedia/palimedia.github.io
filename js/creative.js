@@ -45,9 +45,9 @@
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
 
-        var $anchor = $(this.hash);
-
-        if($($anchor)) {
+        var $anchor = this.hash;
+        
+        if($($anchor).length) {
             $('html, body').stop().animate({
                 scrollTop: ($($anchor).offset().top - 50)
             }, 1250, 'easeInOutExpo');
