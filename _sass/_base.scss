@@ -322,6 +322,11 @@ header {
     }
 }
 
+.hero-img {
+    max-width: 200px;
+    background-color: $theme-dark;
+}
+
 // Bootstrap Overrides
 .text-primary {
     color: $theme-primary;
