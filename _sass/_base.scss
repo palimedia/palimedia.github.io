@@ -109,13 +109,16 @@ aside {
     @include transition-all;
     .navbar-header .navbar-brand {
         color: $theme-primary;
-        @include sans-serif-font;
+        @include header-font;
         font-weight: 700;
         text-transform: uppercase;
         &:hover,
         &:focus {
             color: darken($theme-primary, 10%);
         }
+    }
+    .navbar-logo {
+        height: 50px;
     }
     .nav {
         > li {
@@ -198,6 +201,7 @@ header {
         width: 100%;
         .header-content-inner {
             h1 {
+                @include header-font;
                 font-weight: 700;
                 text-transform: uppercase;
                 margin-top: 0;
@@ -277,7 +281,7 @@ header {
             top: 50%;
             transform: translateY(-50%);
             .project-name {
-                @include sans-serif-font;
+                @include header-font;
                 font-weight: 600;
                 text-transform: uppercase;
                 padding: 0 15px;
