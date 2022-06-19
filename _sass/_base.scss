@@ -82,7 +82,7 @@ aside {
 // Navigation
 
 .footer {
-    background-color: $theme-primary;
+    background-color: $theme-dark;
     display: flex;
     list-style: none;
     justify-content: center;
@@ -321,6 +321,10 @@ header {
 // Bootstrap Overrides
 .text-primary {
     color: $theme-primary;
+}
+
+.text-secondary {
+    color: $theme-dark;
 }
 
 .no-gutter > [class*='col-'] {
