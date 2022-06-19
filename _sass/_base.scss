@@ -68,6 +68,7 @@ aside {
 }
 
 .additional-content-pre {
+    background: $theme-dark;
     height: 50px;
 }
 
@@ -107,7 +108,7 @@ aside {
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-        color: $theme-primary;
+        color: $theme-dark;
         @include header-font;
         font-weight: 700;
         text-transform: uppercase;
@@ -123,6 +124,8 @@ aside {
     }
     .navbar-title {
         margin: auto;
+        font-size: 32px;
+        margin-left: 10px;
     }
     .nav {
         > li {
@@ -195,7 +198,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: linear-gradient(0deg,  $theme-primary, rgba(0, 0, 0, 0)), url("../img/header.jpg");
+    background-image: url("../img/header.jpg");
     text-align: center;
     color: white;
     .header-content {
@@ -289,20 +292,20 @@ header {
                 font-weight: 600;
                 text-transform: uppercase;
                 padding: 0 15px;
-                font-size: 26px;
+                font-size: 32px;
             }
         }
     }
     &:hover {
         .portfolio-box-caption {
-            height: 4rem;
+            height: 5rem;
         }
     }
     @media (min-width: 768px) {
         .portfolio-box-caption {
             .portfolio-box-caption-content {
                 .project-name {
-                    font-size: 22px;
+                    font-size: 42px;
                 }
             }
         }
@@ -351,6 +354,13 @@ header {
     color: $theme-dark;
     font-size: 4em;
 }
+
+// Contact
+#service .fa {
+    color: $theme-dark;
+    font-size: 4em;
+}
+
 
 // Extras
 // -- Highlight Color Customization
