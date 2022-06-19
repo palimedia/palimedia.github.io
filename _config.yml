@@ -2,8 +2,9 @@
 title: Salon Adelsberger Barbara
 email: info@salon-adelsberger.at
 description: > # this means to ignore newlines until "baseurl:"
+Hundefriseurin Adelsberger Barbara
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "www.salon-adelsberger.at" # the base hostname & protocol for your site
+url: www.salon-adelsberger.at # the base hostname & protocol for your site
 
 telephone: +43 664 915 999 8
 adress: Sensenschmiedweg 20<br>6382 Kirchdorf in Tirol

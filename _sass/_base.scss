@@ -124,7 +124,7 @@ aside {
     }
     .navbar-title {
         margin: auto;
-        font-size: 32px;
+        font-size: 28px;
         margin-left: 10px;
     }
     .nav {
@@ -160,6 +160,9 @@ aside {
             &:focus {
                 color: white;
             }
+        }
+        .navbar-title {
+            font-size: 32px;
         }
         .nav > li > a,
         .nav > li > a:focus {
