@@ -116,7 +116,7 @@ aside {
         padding: 3px;
         &:hover,
         &:focus {
-            color: darken($theme-primary, 10%);
+            color: darken($theme-dark, 10%);
         }
     }
     .navbar-logo {
@@ -124,7 +124,7 @@ aside {
     }
     .navbar-title {
         margin: auto;
-        font-size: 28px;
+        font-size: 24px;
         margin-left: 10px;
     }
     .nav {
@@ -322,9 +322,10 @@ header {
     }
 }
 
-.hero-img {
-    max-width: 200px;
-    background-color: $theme-dark;
+.about-img {
+    max-width: 300px;
+    border-radius: 50%;
+    margin-bottom: 3rem;
 }
 
 // Bootstrap Overrides
