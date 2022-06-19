@@ -22,17 +22,17 @@
     }
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
-    // $('a.page-scroll').bind('click', function(event) {
+    $('a.page-scroll').bind('click', function(event) {
 
-    //     var $anchor = this.hash;
+        var $anchor = this.hash;
         
-    //     if($($anchor).length) {
-    //         $('html, body').stop().animate({
-    //             scrollTop: ($($anchor).offset().top - 50)
-    //         }, 1250, 'easeInOutExpo');
-    //         event.preventDefault();
-    //     }
-    // }); 
+        if($($anchor).length) {
+            $('html, body').stop().animate({
+                scrollTop: ($($anchor).offset().top - 50)
+            }, 1250, 'easeInOutExpo');
+            event.preventDefault();
+        }
+    }); 
 
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
@@ -48,7 +48,7 @@
     // Fit Text Plugin for Main Header
     $("h1").fitText(
         1.2, {
-            minFontSize: '35px',
+            minFontSize: '42px',
             maxFontSize: '65px'
         }
     );
