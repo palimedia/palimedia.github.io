@@ -121,6 +121,7 @@ aside {
     }
     .navbar-logo {
         height: 100%;
+        margin-left: 10px;
     }
     .navbar-title {
         margin: auto;
@@ -175,11 +176,11 @@ aside {
             background-color: white;
             border-color: rgba($theme-dark, .5);
             .navbar-header .navbar-brand {
-                color: $theme-primary;
+                color: $theme-dark;
                 font-size: 14px;
                 &:hover,
                 &:focus {
-                    color: darken($theme-primary, 10%);
+                    color: $theme-primary;
                 }
             }
             .nav > li > a,
@@ -324,6 +325,9 @@ header {
 
 .about-img {
     max-width: 300px;
+    border: solid;
+    border-color: $theme-dark;
+    border-width: 5px;
     border-radius: 50%;
     margin-bottom: 3rem;
 }
