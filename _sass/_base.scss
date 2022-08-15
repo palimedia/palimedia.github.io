@@ -201,7 +201,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: linear-gradient(0deg, rgba($theme-dark, 1), rgba($theme-dark, 0.1)), url("../img/header.jpg");
+    background-image: linear-gradient(0deg, rgba($theme-primary, .4), rgba($theme-primary, 0.4)), url("../img/header.jpg");
     text-align: center;
     color: white;
     .header-content {
