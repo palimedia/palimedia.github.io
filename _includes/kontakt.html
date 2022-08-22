@@ -14,11 +14,16 @@
             <span itemprop="name" content="{{ site.name }}"></span>
             <span itemprop="description" content="{{ site.description }}"></span>
 
+            <span itemprop="geo">
+                <meta itemprop="latitude" content="47.5445305" />
+                <meta itemprop="longitude" content="12.4354208" />
+            </span>
+
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <img itemprop="logo" style="margin-bottom: 4rem; max-width: 300px;" src="img/logo-full.png" />
+                <img itemprop="logo" style="max-width: 300px;" src="img/logo-full.png" />
             </div>
 
-            <div class="col-lg-4 text-center">
+            <div style="margin-top: 2rem;" class="col-lg-4 text-center">
                 <i class="fa fa-map-marker fa-4x wow bounceIn text-secondary" data-wow-delay=".1s"></i>
                 <h4>
                     <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
@@ -29,14 +34,14 @@
                 </h4>      
             </div>
             
-            <div class="col-lg-4 text-center">
+            <div style="margin-top: 2rem;" class="col-lg-4 text-center">
                 <i class="fa fa-phone fa-4x wow bounceIn text-secondary" data-wow-delay=".1s"></i>
                 <h4><span itemprop="telephone" content="+436645775676">{{ site.telephone }}</span></h4>
             </div>
 
-            <div class="col-lg-4 text-center">
+            <div style="margin-top: 2rem;" class="col-lg-4 text-center">
                 <i class="fa fa-envelope-o fa-4x wow bounceIn text-secondary" data-wow-delay=".1s"></i>
-                <h4><span itemprop="email">{{ site.email }}</span></h4>
+                <h4><a href="mailto:{{ site.email }}" itemprop="email">{{ site.email }}</a></h4>
             </div>
 
         </div>
