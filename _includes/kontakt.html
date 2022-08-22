@@ -1,4 +1,4 @@
-<section id="kontakt">
+<section id="kontakt" itemscope itemtype="https://schema.org/LocalBusiness">
     <div class="container">
         <div class="row">
             
@@ -11,29 +11,32 @@
 
             </div>
 
+            <span itemprop="name" content="{{ site.name }}"></span>
+            <span itemprop="description" content="{{ site.description }}"></span>
+
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <img style="margin-bottom: 4rem; max-width: 300px;" src="img/logo-full.png" />
+                <img itemprop="logo" style="margin-bottom: 4rem; max-width: 300px;" src="img/logo-full.png" />
             </div>
 
             <div class="col-lg-4 text-center">
-                <a href="https://www.google.com/maps/place/Unterm+Rain+1,+6382+Kirchdorf+in+Tirol">
-                    <i class="fa fa-map-marker fa-4x wow bounceIn text-secondary" data-wow-delay=".1s"></i>
-                    <p>{{ site.adress }}</p>
-                </a>         
+                <i class="fa fa-map-marker fa-4x wow bounceIn text-secondary" data-wow-delay=".1s"></i>
+                <h4>
+                    <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                        <span itemprop="streetAddress">{{ site.address_street }}</span><br>
+                        <span itemprop="postalCode">{{ site.address_code }}</span>,
+                        <span itemprop="addressLocality">{{ site.address_locality }}</span>
+                    </div>
+                </h4>      
             </div>
             
             <div class="col-lg-4 text-center">
-                <a href="tel:{{ site.telephone }}">
-                    <i class="fa fa-phone fa-4x wow bounceIn text-secondary" data-wow-delay=".1s"></i>
-                    <p>{{ site.telephone }}</p>
-                </a>
+                <i class="fa fa-phone fa-4x wow bounceIn text-secondary" data-wow-delay=".1s"></i>
+                <h4><span itemprop="telephone" content="+436645775676">{{ site.telephone }}</span></h4>
             </div>
 
             <div class="col-lg-4 text-center">
-                <a href="mailto:{{ site.email }}">
                 <i class="fa fa-envelope-o fa-4x wow bounceIn text-secondary" data-wow-delay=".1s"></i>
-                    <p>{{ site.email }}</p>
-                </a>
+                <h4><span itemprop="email">{{ site.email }}</span></h4>
             </div>
 
         </div>
