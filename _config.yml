@@ -1,11 +1,12 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://github.com/jeromelachaud/freelancer-theme
+title: palimedia
+email: office.palimedia@gmail.com
+phone: +43 664 9159998
+url: https://palimedia.at
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+skills: "Multimedia-Agentur<br>Web - Logo - 3D - Fotografie - Video"
+meta_author: Pali Adrian, palimedia.at
 
 # Google webmaster tools
 google_verify:
@@ -19,44 +20,32 @@ bing_verify:
 # - comment the line below if you want to stick with the default PHP contact form
 contact: static
 
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
-
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: F15A29 #80B3FF
+  primary-rgb: "241,90,41" #"128,179,255"
+  secondary: 262A33 #FD6E8A
+  secondary-dark: 1b1e24 #A2122F
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
-  social: Around the Web
-  credits: Credits
+  copyright: palimedia.at e.U.
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
+  - title: instagram
     url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+  - title: facebook
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: twitter
+    url: http://twitter.com/palimedia
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/palimedia
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
-
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+  - line: 6382 Kirchdorf in Tirol
+  - line: Sensenschmiedweg 20
 
 # Build settings
 markdown: kramdown

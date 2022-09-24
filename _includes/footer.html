@@ -4,7 +4,9 @@
     <div class="container">
       <div class="row">
         <div class="footer-col col-md-4">
-          <h3>{{ site.footer.location }}</h3>
+          <p>
+            <i class="fa fa-location-dot fa-2x"></i>
+          </p>
           <p>
             {% for adress in site.address %}
             {{ adress.line }} <br>
@@ -12,7 +14,6 @@
           </p>
         </div>
         <div class="footer-col col-md-4">
-          <h3>{{ site.footer.social }}</h3>
           <ul class="list-inline">
             {% for network in site.social %}
             <li>
@@ -23,8 +24,22 @@
           </ul>
         </div>
         <div class="footer-col col-md-4">
-          <h3>{{ site.footer.credits }}</h3>
-          <p>{{ site.credits }}</p>
+          <div style="display: inline-flex; align-items: center;">
+            <p>
+              <i class="fa fa-phone fa-2x"></i>
+            </p>
+            <p style="padding:1rem;">
+              {{ site.phone }}
+            </p>
+          </div>
+          <div style="display: inline-flex; align-items: center; margin-left: 1rem;">
+            <p>
+              <i class="fa fa-envelope fa-2x"></i>
+            </p>
+            <p style="padding:1rem;">
+              {{ site.email }}
+            </p>
+          </div>
         </div>
       </div>
     </div>

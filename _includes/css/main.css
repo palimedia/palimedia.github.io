@@ -31,8 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Source Serif Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -49,13 +48,13 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\f111";
     display: inline-block;
     position: relative;
-    top: -.8em;
-    padding: 0 .25em;
+    top: -.9em;
+    padding: 0 .5em;
     font-family: FontAwesome;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 hr.star-light {
@@ -98,8 +97,7 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Source Serif Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -137,6 +135,7 @@ header .intro-text .skills {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+        padding: 0.8rem;
     }
 
     .navbar-fixed-top.navbar-shrink {
@@ -145,13 +144,18 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        padding: 1.2rem;
     }
 }
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Source Serif Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+.navbar-brand {
+    padding: 1.8rem;
 }
 
 .navbar a:focus {
@@ -193,6 +197,15 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+}
+
+.offer-hero {
+    margin-top:2rem; 
+    text-align: center;
+}
+
+.offer-hero > div {
+    margin-top: 2rem;
 }
 
 #portfolio .portfolio-item {
