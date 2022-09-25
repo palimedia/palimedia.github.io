@@ -200,12 +200,12 @@ section.success {
 }
 
 .offer-hero {
-    margin-top:2rem; 
+    margin-top: 2rem; 
     text-align: center;
 }
 
 .offer-hero > div {
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 #portfolio .portfolio-item {
