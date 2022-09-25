@@ -301,6 +301,14 @@ section.success {
     transition: all .3s ease-in-out;
 }
 
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active {
+    border-color: #fff;
+    background-color: #{{ site.color.primary }};
+}
+
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
